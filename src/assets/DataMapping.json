@@ -1,0 +1,1159 @@
+{
+  "cells": [
+    {
+      "type": "standard.HeaderedRecord",
+      "padding": {
+        "top": 35,
+        "left": 10,
+        "right": 10,
+        "bottom": 5
+      },
+      "size": {
+        "width": 213,
+        "height": 420
+      },
+      "items": [
+        [
+          {
+            "id": "file",
+            "label": "File: (default)",
+            "icon": "assets/images/file.svg",
+            "highlighted": true,
+            "items": [
+              {
+                "id": "completepo",
+                "label": "CompletePO",
+                "icon": "assets/images/document.svg",
+                "items": [
+                  {
+                    "id": "customerpo",
+                    "label": "Customer",
+                    "icon": "assets/images/document.svg",
+                    "items": [
+                      {
+                        "id": "customerpo_number",
+                        "label": "Number",
+                        "icon": "assets/images/document.svg"
+                      },
+                      {
+                        "id": "customerpo_first_name",
+                        "label": "FirstName",
+                        "icon": "assets/images/document.svg"
+                      },
+                      {
+                        "id": "customerpo_last_name",
+                        "label": "LastName",
+                        "icon": "assets/images/document.svg"
+                      },
+                      {
+                        "id": "addresspo",
+                        "label": "Adress",
+                        "icon": "assets/images/file.svg",
+                        "items": [
+                          {
+                            "id": "addresspo_street",
+                            "label": "Street",
+                            "icon": "assets/images/document.svg"
+                          },
+                          {
+                            "id": "addresspo_city",
+                            "label": "City",
+                            "icon": "assets/images/document.svg"
+                          },
+                          {
+                            "id": "addresspo_zip",
+                            "label": "Zip",
+                            "icon": "assets/images/document.svg"
+                          },
+                          {
+                            "id": "addresspo_state",
+                            "label": "State",
+                            "icon": "assets/images/document.svg"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "listitems",
+                        "label": "ListItems",
+                        "icon": "assets/images/file.svg",
+                        "items": [
+                          {
+                            "id": "listitem",
+                            "label": "ListItem",
+                            "icon": "assets/images/file.svg",
+                            "items": [
+                              {
+                                "id": "article",
+                                "label": "Article",
+                                "icon": "assets/images/file.svg",
+                                "items": [
+                                  {
+                                    "id": "article_number",
+                                    "label": "Number",
+                                    "icon": "assets/images/document.svg"
+                                  },
+                                  {
+                                    "id": "article_name",
+                                    "label": "Name",
+                                    "icon": "assets/images/document.svg"
+                                  },
+                                  {
+                                    "id": "article_singleprice",
+                                    "label": "Singleprice",
+                                    "icon": "assets/images/document.svg"
+                                  },
+                                  {
+                                    "id": "article_amount",
+                                    "label": "Amount",
+                                    "icon": "assets/images/document.svg"
+                                  },
+                                  {
+                                    "id": "article_price",
+                                    "label": "Price",
+                                    "icon": "assets/images/document.svg"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ],
+      "itemHeight": 20,
+      "itemOffset": 15,
+      "itemMinLabelWidth": 70,
+      "itemButtonSize": 10,
+      "itemIcon": {
+        "width": 16,
+        "height": 16,
+        "padding": 2
+      },
+      "itemOverflow": true,
+      "position": {
+        "x": 900,
+        "y": 100
+      },
+      "angle": 0,
+      "id": "baa441c4-710d-4679-bede-1924b32b33a8",
+      "z": 1,
+      "attrs": {
+        "header": {
+          "fill": "#31d0c6"
+        },
+        "headerLabel": {
+          "fontFamily": "Sans-serif",
+          "fontWeight": "bold",
+          "textWrap": {
+            "ellipsis": true,
+            "height": 30,
+            "text": "CompletePO"
+          }
+        },
+        "buttonsGroups": {
+          "stroke": "black"
+        },
+        "forksGroups": {
+          "stroke": "lightgray"
+        },
+        "itemBodies": {
+          "itemHighlight": {
+            "stroke": "#000000"
+          }
+        },
+        "itemLabels": {
+          "fontSize": 12,
+          "itemHighlight": {
+            "fill": "#fe854f"
+          },
+          "magnet": "true",
+          "cursor": "pointer",
+          "fontFamily": "Sans-serif"
+        },
+        "root": {
+          "magnet": false
+        },
+        "itemLabels_disabled": {
+          "magnet": null,
+          "fill": "#aaaaaa",
+          "cursor": "not-allowed"
+        }
+      }
+    },
+    {
+      "type": "standard.HeaderedRecord",
+      "padding": {
+        "top": 35,
+        "left": 10,
+        "right": 10,
+        "bottom": 5
+      },
+      "size": {
+        "width": 183,
+        "height": 180
+      },
+      "items": [
+        [
+          {
+            "id": "file",
+            "label": "File: ShortPO.xml",
+            "icon": "assets/images/file.svg",
+            "highlighted": true,
+            "items": [
+              {
+                "id": "shortpo",
+                "label": "ShortPO",
+                "icon": "assets/images/document.svg",
+                "items": [
+                  {
+                    "id": "shortpo_customer_number",
+                    "label": "CustomerNR",
+                    "icon": "assets/images/document.svg"
+                  },
+                  {
+                    "id": "listitems",
+                    "label": "ListItems",
+                    "icon": "assets/images/file.svg",
+                    "items": [
+                      {
+                        "id": "listitem",
+                        "label": "ListItem",
+                        "icon": "assets/images/file.svg",
+                        "items": [
+                          {
+                            "id": "article_number",
+                            "label": "Article_NR",
+                            "icon": "assets/images/document.svg"
+                          },
+                          {
+                            "id": "article_amount",
+                            "label": "Amount",
+                            "icon": "assets/images/document.svg"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ],
+      "itemHeight": 20,
+      "itemOffset": 15,
+      "itemMinLabelWidth": 70,
+      "itemButtonSize": 10,
+      "itemIcon": {
+        "width": 16,
+        "height": 16,
+        "padding": 2
+      },
+      "itemOverflow": true,
+      "position": {
+        "x": 50,
+        "y": 80
+      },
+      "angle": 0,
+      "id": "898849f5-8cc5-4075-a8b1-432b61ebd3f1",
+      "z": 2,
+      "attrs": {
+        "header": {
+          "fill": "#31d0c6"
+        },
+        "headerLabel": {
+          "fontFamily": "Sans-serif",
+          "fontWeight": "bold",
+          "textWrap": {
+            "ellipsis": true,
+            "height": 30,
+            "text": "ShortPO"
+          }
+        },
+        "buttonsGroups": {
+          "stroke": "black"
+        },
+        "forksGroups": {
+          "stroke": "lightgray"
+        },
+        "itemBodies": {
+          "itemHighlight": {
+            "stroke": "#000000"
+          }
+        },
+        "itemLabels": {
+          "fontSize": 12,
+          "itemHighlight": {
+            "fill": "#fe854f"
+          },
+          "magnet": "true",
+          "cursor": "pointer",
+          "fontFamily": "Sans-serif"
+        },
+        "root": {
+          "magnet": false
+        },
+        "itemLabels_disabled": {
+          "magnet": null,
+          "fill": "#aaaaaa",
+          "cursor": "not-allowed"
+        }
+      }
+    },
+    {
+      "type": "standard.HeaderedRecord",
+      "padding": {
+        "top": 35,
+        "left": 10,
+        "right": 10,
+        "bottom": 5
+      },
+      "size": {
+        "width": 223,
+        "height": 280
+      },
+      "items": [
+        [
+          {
+            "id": "addresses",
+            "label": "Addresses",
+            "icon": "assets/images/file.svg",
+            "collapsed": true,
+            "items": [
+              {
+                "id": "addresses_street",
+                "label": "Street",
+                "icon": "assets/images/document.svg"
+              },
+              {
+                "id": "addresses_city",
+                "label": "City",
+                "icon": "assets/images/document.svg"
+              },
+              {
+                "id": "addresses_state",
+                "label": "State",
+                "icon": "assets/images/document.svg"
+              },
+              {
+                "id": "addresses_zip",
+                "label": "Zip",
+                "icon": "assets/images/file.svg",
+                "group": "disabled"
+              }
+            ]
+          },
+          {
+            "id": "articles",
+            "label": "Articles",
+            "icon": "assets/images/file.svg",
+            "collapsed": true,
+            "items": [
+              {
+                "id": "articles_number",
+                "label": "Number",
+                "icon": "assets/images/document.svg"
+              },
+              {
+                "id": "articles_name",
+                "label": "Name",
+                "icon": "assets/images/document.svg"
+              },
+              {
+                "id": "articles_singleprice",
+                "label": "SinglePrice",
+                "icon": "assets/images/document.svg"
+              },
+              {
+                "id": "articles_amount",
+                "label": "Amount",
+                "icon": "assets/images/document.svg"
+              },
+              {
+                "id": "articles_price",
+                "label": "Price",
+                "icon": "assets/images/document.svg"
+              }
+            ]
+          },
+          {
+            "id": "customer",
+            "label": "Customer",
+            "icon": "assets/images/file.svg",
+            "items": [
+              {
+                "id": "customer_number",
+                "label": "Number",
+                "icon": "assets/images/document.svg"
+              },
+              {
+                "id": "customer_first_name",
+                "label": "FirstName",
+                "icon": "assets/images/document.svg"
+              },
+              {
+                "id": "customer_last_name",
+                "label": "LastName",
+                "icon": "assets/images/document.svg"
+              },
+              {
+                "id": "addresses2",
+                "label": "Addresses",
+                "icon": "assets/images/file.svg",
+                "items": [
+                  {
+                    "id": "addresses2_cust_no",
+                    "label": "CustomerNr",
+                    "icon": "assets/images/document.svg"
+                  },
+                  {
+                    "id": "addresses2_city",
+                    "label": "City",
+                    "icon": "assets/images/document.svg"
+                  },
+                  {
+                    "id": "addresses2_state",
+                    "label": "State",
+                    "icon": "assets/images/document.svg"
+                  },
+                  {
+                    "id": "addresses2_street",
+                    "label": "Street",
+                    "icon": "assets/images/document.svg"
+                  },
+                  {
+                    "id": "addresses2_zip",
+                    "label": "Zip",
+                    "icon": "assets/images/document.svg"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ],
+      "itemHeight": 20,
+      "itemOffset": 15,
+      "itemMinLabelWidth": 140,
+      "itemButtonSize": 10,
+      "itemIcon": {
+        "width": 16,
+        "height": 16,
+        "padding": 2
+      },
+      "itemOverflow": true,
+      "position": {
+        "x": 50,
+        "y": 300
+      },
+      "angle": 0,
+      "id": "209c9c12-2ab1-4a99-a9f6-abc16aadb809",
+      "z": 3,
+      "attrs": {
+        "header": {
+          "fill": "#31d0c6"
+        },
+        "headerLabel": {
+          "fontFamily": "Sans-serif",
+          "fontWeight": "bold",
+          "textWrap": {
+            "ellipsis": true,
+            "height": 30,
+            "text": "CustomerAndArticals"
+          }
+        },
+        "buttonsGroups": {
+          "stroke": "black"
+        },
+        "forksGroups": {
+          "stroke": "lightgray"
+        },
+        "itemBodies": {
+          "itemHighlight": {
+            "stroke": "#000000"
+          }
+        },
+        "itemLabels": {
+          "fontSize": 12,
+          "itemHighlight": {
+            "fill": "#fe854f"
+          },
+          "magnet": "true",
+          "cursor": "pointer",
+          "fontFamily": "Sans-serif"
+        },
+        "root": {
+          "magnet": false
+        },
+        "itemLabels_disabled": {
+          "magnet": null,
+          "fill": "#aaaaaa",
+          "cursor": "not-allowed"
+        }
+      }
+    },
+    {
+      "type": "standard.HeaderedRecord",
+      "padding": {
+        "top": 30,
+        "left": 10,
+        "right": 0,
+        "bottom": 0
+      },
+      "size": {
+        "width": 156,
+        "height": 70
+      },
+      "items": [
+        [
+          {
+            "id": "concat1_a",
+            "label": "a",
+            "icon": "assets/images/link.svg"
+          },
+          {
+            "id": "concat1_b",
+            "label": "b",
+            "icon": "assets/images/link.svg"
+          }
+        ],
+        [
+          {
+            "id": "result",
+            "label": "Result ⇛",
+            "height": 40
+          }
+        ]
+      ],
+      "itemHeight": 20,
+      "itemOffset": 5,
+      "itemMinLabelWidth": 50,
+      "itemButtonSize": 10,
+      "itemIcon": {
+        "width": 16,
+        "height": 16,
+        "padding": 2
+      },
+      "itemOverflow": true,
+      "position": {
+        "x": 370,
+        "y": 110
+      },
+      "angle": 0,
+      "id": "e78a5bb5-0e1e-4286-ab47-b7b6cf52d300",
+      "z": 4,
+      "attrs": {
+        "header": {
+          "fill": "#fe854f"
+        },
+        "headerLabel": {
+          "fontFamily": "Sans-serif",
+          "fontWeight": "bold",
+          "textWrap": {
+            "text": "equal",
+            "ellipsis": true,
+            "height": 30
+          }
+        },
+        "itemLabels": {
+          "fontSize": 12,
+          "magnet": true,
+          "fontFamily": "Sans-serif"
+        },
+        "root": {
+          "magnet": false
+        },
+        "itemLabels_0": {
+          "magnet": "passive",
+          "cursor": "pointer"
+        },
+        "itemBodies_0": {
+          "stroke": "black"
+        }
+      }
+    },
+    {
+      "type": "standard.HeaderedRecord",
+      "padding": {
+        "top": 30,
+        "left": 10,
+        "right": 0,
+        "bottom": 0
+      },
+      "size": {
+        "width": 156,
+        "height": 70
+      },
+      "items": [
+        [
+          {
+            "id": "concat2_a",
+            "label": "a",
+            "icon": "assets/images/link.svg"
+          },
+          {
+            "id": "concat2_b",
+            "label": "b",
+            "icon": "assets/images/link.svg"
+          }
+        ],
+        [
+          {
+            "id": "result",
+            "label": "Result ⇛",
+            "height": 40
+          }
+        ]
+      ],
+      "itemHeight": 20,
+      "itemOffset": 5,
+      "itemMinLabelWidth": 50,
+      "itemButtonSize": 10,
+      "itemIcon": {
+        "width": 16,
+        "height": 16,
+        "padding": 2
+      },
+      "itemOverflow": true,
+      "position": {
+        "x": 380,
+        "y": 280
+      },
+      "angle": 0,
+      "id": "79505c20-ce1b-45f6-9c3b-053e321835f9",
+      "z": 5,
+      "attrs": {
+        "header": {
+          "fill": "#fe854f"
+        },
+        "headerLabel": {
+          "fontFamily": "Sans-serif",
+          "fontWeight": "bold",
+          "textWrap": {
+            "text": "equal",
+            "ellipsis": true,
+            "height": 30
+          }
+        },
+        "itemLabels": {
+          "fontSize": 12,
+          "magnet": true,
+          "fontFamily": "Sans-serif"
+        },
+        "root": {
+          "magnet": false
+        },
+        "itemLabels_0": {
+          "magnet": "passive",
+          "cursor": "pointer"
+        },
+        "itemBodies_0": {
+          "stroke": "black"
+        }
+      }
+    },
+    {
+      "type": "standard.HeaderedRecord",
+      "padding": {
+        "top": 30,
+        "left": 10,
+        "right": 0,
+        "bottom": 0
+      },
+      "size": {
+        "width": 156,
+        "height": 70
+      },
+      "items": [
+        [
+          {
+            "id": "concat3_value1",
+            "label": "value1",
+            "icon": "assets/images/link.svg"
+          },
+          {
+            "id": "concat3_value2",
+            "label": "value2",
+            "icon": "assets/images/link.svg"
+          }
+        ],
+        [
+          {
+            "id": "result",
+            "label": "Result ⇛",
+            "height": 40
+          }
+        ]
+      ],
+      "itemHeight": 20,
+      "itemOffset": 5,
+      "itemMinLabelWidth": 50,
+      "itemButtonSize": 10,
+      "itemIcon": {
+        "width": 16,
+        "height": 16,
+        "padding": 2
+      },
+      "itemOverflow": true,
+      "position": {
+        "x": 580,
+        "y": 440
+      },
+      "angle": 0,
+      "id": "cb0bdfbb-8d47-4662-9d4e-ea023d77ed3b",
+      "z": 6,
+      "attrs": {
+        "header": {
+          "fill": "#fe854f"
+        },
+        "headerLabel": {
+          "fontFamily": "Sans-serif",
+          "fontWeight": "bold",
+          "textWrap": {
+            "text": "multiply",
+            "ellipsis": true,
+            "height": 30
+          }
+        },
+        "itemLabels": {
+          "fontSize": 12,
+          "magnet": true,
+          "fontFamily": "Sans-serif"
+        },
+        "root": {
+          "magnet": false
+        },
+        "itemLabels_0": {
+          "magnet": "passive",
+          "cursor": "pointer"
+        },
+        "itemBodies_0": {
+          "stroke": "black"
+        }
+      }
+    },
+    {
+      "type": "standard.HeaderedRecord",
+      "padding": {
+        "top": 30,
+        "left": 10,
+        "right": 0,
+        "bottom": 0
+      },
+      "size": {
+        "width": 120,
+        "height": 70
+      },
+      "items": [
+        [
+          {
+            "id": "nodeflow",
+            "label": "nodeflow"
+          },
+          {
+            "id": "bool",
+            "label": "bool"
+          }
+        ],
+        [
+          {
+            "id": "on-true",
+            "label": "on-true"
+          },
+          {
+            "id": "on-false",
+            "label": "on-false"
+          }
+        ]
+      ],
+      "itemHeight": 20,
+      "itemOffset": 5,
+      "itemMinLabelWidth": 50,
+      "itemButtonSize": 10,
+      "itemIcon": {
+        "width": 16,
+        "height": 16,
+        "padding": 2
+      },
+      "itemOverflow": true,
+      "position": {
+        "x": 600,
+        "y": 110
+      },
+      "angle": 0,
+      "id": "9a90bd4e-e562-402b-884d-4b9612297270",
+      "z": 7,
+      "attrs": {
+        "header": {
+          "fill": "#fe854f"
+        },
+        "headerLabel": {
+          "fontFamily": "Sans-serif",
+          "fontWeight": "bold",
+          "textWrap": {
+            "text": "Customers",
+            "ellipsis": true,
+            "height": 30
+          }
+        },
+        "itemBodies": {
+          "stroke": "black"
+        },
+        "itemLabels": {
+          "fontSize": 12,
+          "magnet": true,
+          "fontFamily": "Sans-serif"
+        },
+        "root": {
+          "magnet": false
+        },
+        "itemLabels_0": {
+          "magnet": "passive",
+          "cursor": "pointer"
+        }
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "898849f5-8cc5-4075-a8b1-432b61ebd3f1",
+        "port": "shortpo_customer_number"
+      },
+      "target": {
+        "id": "e78a5bb5-0e1e-4286-ab47-b7b6cf52d300",
+        "port": "concat1_a"
+      },
+      "id": "36a94a9b-47fa-4a6c-b0a3-9718e38b60c3",
+      "z": 8,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "898849f5-8cc5-4075-a8b1-432b61ebd3f1",
+        "port": "listitems"
+      },
+      "target": {
+        "id": "baa441c4-710d-4679-bede-1924b32b33a8",
+        "port": "listitems"
+      },
+      "id": "ef2f623f-2300-4d56-a00d-dbc8b494d637",
+      "z": 9,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "898849f5-8cc5-4075-a8b1-432b61ebd3f1",
+        "port": "listitem"
+      },
+      "target": {
+        "id": "baa441c4-710d-4679-bede-1924b32b33a8",
+        "port": "listitem"
+      },
+      "id": "1e7fddfc-95b7-4109-bba4-e8687bb5f11d",
+      "z": 10,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "898849f5-8cc5-4075-a8b1-432b61ebd3f1",
+        "port": "article_number"
+      },
+      "target": {
+        "id": "79505c20-ce1b-45f6-9c3b-053e321835f9",
+        "port": "article_number"
+      },
+      "id": "5e4c16f1-3ef0-409f-8b45-2f54635781f0",
+      "z": 11,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "898849f5-8cc5-4075-a8b1-432b61ebd3f1",
+        "port": "article_amount"
+      },
+      "target": {
+        "id": "baa441c4-710d-4679-bede-1924b32b33a8",
+        "port": "article_amount"
+      },
+      "id": "77a6b3ab-8404-4e02-aa46-a5908784d69f",
+      "z": 12,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "898849f5-8cc5-4075-a8b1-432b61ebd3f1",
+        "port": "article_amount"
+      },
+      "target": {
+        "id": "cb0bdfbb-8d47-4662-9d4e-ea023d77ed3b",
+        "port": "concat3_value1"
+      },
+      "id": "8f867878-e66b-416a-982a-a8d067c72f15",
+      "z": 13,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "e78a5bb5-0e1e-4286-ab47-b7b6cf52d300",
+        "port": "concat1_b"
+      },
+      "target": {
+        "id": "209c9c12-2ab1-4a99-a9f6-abc16aadb809",
+        "port": "customer_number"
+      },
+      "id": "5df58cc8-f3a2-470d-82c3-ca469181a79a",
+      "z": 14,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "9a90bd4e-e562-402b-884d-4b9612297270",
+        "port": "on-true"
+      },
+      "target": {
+        "id": "baa441c4-710d-4679-bede-1924b32b33a8",
+        "port": "customerpo"
+      },
+      "id": "eef822a5-dabc-49a5-bff1-8a8353037f78",
+      "z": 15,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "e78a5bb5-0e1e-4286-ab47-b7b6cf52d300",
+        "port": "result"
+      },
+      "target": {
+        "id": "9a90bd4e-e562-402b-884d-4b9612297270",
+        "port": "bool"
+      },
+      "id": "e23af4d1-a6b7-43dc-897f-a0e606df3e57",
+      "z": 16,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "209c9c12-2ab1-4a99-a9f6-abc16aadb809",
+        "port": "addresses2_city"
+      },
+      "target": {
+        "id": "baa441c4-710d-4679-bede-1924b32b33a8",
+        "port": "addresspo_city"
+      },
+      "id": "1f600ed4-c280-4ad4-b833-59754d547d2f",
+      "z": 17,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "209c9c12-2ab1-4a99-a9f6-abc16aadb809",
+        "port": "addresses2_street"
+      },
+      "target": {
+        "id": "baa441c4-710d-4679-bede-1924b32b33a8",
+        "port": "addresspo_street"
+      },
+      "id": "9497b63b-7bab-448b-bedd-ead10e346b0b",
+      "z": 18,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "209c9c12-2ab1-4a99-a9f6-abc16aadb809",
+        "port": "addresses2_zip"
+      },
+      "target": {
+        "id": "baa441c4-710d-4679-bede-1924b32b33a8",
+        "port": "addresspo_zip"
+      },
+      "id": "d9875f17-7f42-4e03-951d-ab221406c5a1",
+      "z": 19,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "209c9c12-2ab1-4a99-a9f6-abc16aadb809",
+        "port": "addresses2_state"
+      },
+      "target": {
+        "id": "baa441c4-710d-4679-bede-1924b32b33a8",
+        "port": "addresspo_state"
+      },
+      "id": "13399eef-db03-4d26-9887-0507a6c8ce1a",
+      "z": 20,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "209c9c12-2ab1-4a99-a9f6-abc16aadb809",
+        "port": "addresses2"
+      },
+      "target": {
+        "id": "baa441c4-710d-4679-bede-1924b32b33a8",
+        "port": "addresspo"
+      },
+      "id": "a6b0c5d3-07a4-4ed3-85c4-dc5a3521006a",
+      "z": 21,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "209c9c12-2ab1-4a99-a9f6-abc16aadb809",
+        "port": "customer_number"
+      },
+      "target": {
+        "id": "baa441c4-710d-4679-bede-1924b32b33a8",
+        "port": "customerpo_number"
+      },
+      "id": "c95f7271-429d-4595-a447-ec29a69e9676",
+      "z": 22,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "209c9c12-2ab1-4a99-a9f6-abc16aadb809",
+        "port": "customer_first_name"
+      },
+      "target": {
+        "id": "baa441c4-710d-4679-bede-1924b32b33a8",
+        "port": "customerpo_first_name"
+      },
+      "id": "a6aeafe7-f399-4f15-a0d4-bb5fcb0c3666",
+      "z": 23,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "209c9c12-2ab1-4a99-a9f6-abc16aadb809",
+        "port": "customer_last_name"
+      },
+      "target": {
+        "id": "baa441c4-710d-4679-bede-1924b32b33a8",
+        "port": "customerpo_last_name"
+      },
+      "id": "cbcbad73-df3d-4478-b26f-78b726c35c21",
+      "z": 24,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "cb0bdfbb-8d47-4662-9d4e-ea023d77ed3b",
+        "port": "result"
+      },
+      "target": {
+        "id": "baa441c4-710d-4679-bede-1924b32b33a8",
+        "port": "article_price"
+      },
+      "id": "8977c7d8-4373-48ff-8fd3-19d76ceb3761",
+      "z": 25,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "209c9c12-2ab1-4a99-a9f6-abc16aadb809",
+        "port": "articles_name"
+      },
+      "target": {
+        "id": "baa441c4-710d-4679-bede-1924b32b33a8",
+        "port": "article_name"
+      },
+      "id": "4a6df7ac-3aa3-4b51-9b20-b8df689efe8e",
+      "z": 26,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "209c9c12-2ab1-4a99-a9f6-abc16aadb809",
+        "port": "articles_singleprice"
+      },
+      "target": {
+        "id": "baa441c4-710d-4679-bede-1924b32b33a8",
+        "port": "article_singleprice"
+      },
+      "id": "526f92c1-9721-4027-93fb-545741f6e28e",
+      "z": 27,
+      "attrs": {
+        
+      }
+    },
+    {
+      "type": "mapping.Link",
+      "source": {
+        "id": "209c9c12-2ab1-4a99-a9f6-abc16aadb809",
+        "port": "articles_amount"
+      },
+      "target": {
+        "id": "baa441c4-710d-4679-bede-1924b32b33a8",
+        "port": "address_amount"
+      },
+      "id": "0c18c6d6-744c-4cd2-893d-f0e0f3b99174",
+      "z": 28,
+      "attrs": {
+        
+      }
+    }
+  ]
+}
